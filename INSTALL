@@ -1,0 +1,36 @@
+
+--------------------------------
+
+This tool is used to automatically generate and optimize code for the
+Fast Multipole Method (FMM) operators.
+
+The current version (1.0) supports the Cartesian basis set and the 1/r harmonic potential.
+
+
+Feedback and improvements are welcome.
+
+Please report bugs to Jonathan Coles <jonathan.coles@tum.de>
+
+
+Usage
+-----
+
+To set the parameters for the output, edit the source code.
+Set the kind of output desired and the output directory.
+Specify a list of expansion orders.
+
+Set the operator variant desired.
+
+Create the output directory.
+
+Run the generator with the command
+
+    python mosaic.py
+
+
+
+Requirements
+------------
+
+Version 1.0 has been tested with Python 2.7.13 and Sympy 1.1.1.
+
